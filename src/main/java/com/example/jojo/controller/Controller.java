@@ -19,4 +19,9 @@ public class Controller {
     public String iwantgohome() {
         return "iwantgohome";
     }
+    @GetMapping("/myjob")
+    public String myjob() {
+        return "myjob";
+    }
+
 }
