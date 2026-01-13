@@ -8,4 +8,8 @@ public class Controller {
     public String entry(){
         return "entrypoint";
     }
+    @GetMapping("/iwantgohome")
+    public String iwantgohome() {
+        return "iwantgohome";
+    }
 }
