@@ -14,4 +14,9 @@ public class Controller {
     public String getProfile() {
         return "profile";
     }
+       
+    @GetMapping("/iwantgohome")
+    public String iwantgohome() {
+        return "iwantgohome";
+    }
 }
